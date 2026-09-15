@@ -1,4 +1,5 @@
-#170FEB electric blue
-#C4B76D dark khaki
-#A2C172 light olive green 
-
+body {
+  font-family: Georgia, serif;
+  color:#C4B76D; 
+  background-color: #170FEB;
+}

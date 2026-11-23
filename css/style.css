@@ -9,7 +9,16 @@ header {
   color: #ffffff;
   padding: 20px;
 }
-
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media (min-width: 600px) {
+  nav {
+    flex-direction: row;
+  }
+}
 header nav a {
   color: #b2b3b8;
   margin-right: 16px;
